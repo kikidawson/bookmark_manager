@@ -11,3 +11,12 @@ Action → to see a list
 
 Classes → BookmarkManager, Bookmark
 Methods → see_list
+
+## Setting up database
+
+```
+$ psql postgres
+$ CREATE DATABASE bookmark_manager;
+$ \c bookmark_manager
+$ run the query saved in 01_creating_bookmarks_table.sql
+```
