@@ -9,8 +9,6 @@ feature 'view the bookmarks' do
   scenario 'show me the all bookmarks' do
     visit '/bookmarks'
     
-    expect(page).to have_content "www.bbc.co.uk"
-    expect(page).to have_content "www.github.com"
-    expect(page).to have_content "www.miniclip.com"
+    expect(page).to have_content "http://www.makersacademy.com"
   end
 end
