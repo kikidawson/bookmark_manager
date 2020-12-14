@@ -9,5 +9,5 @@ I want to be able to see a list of all my bookmarks.
 Objects → bookmarks
 Action → to see a list
 
-Classes → Library, Bookmark
+Classes → BookmarkManager, Bookmark
 Methods → see_list
